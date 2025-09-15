@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.header {
+  padding: 16px;
+  background-color: #102b65; /* blue-600 */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  user-select: none;
+  margin: 0;
+  font-family: "Bree Serif";
+}
+
+.header a {
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.header a:hover {
+  background-color: #1e40af; /* blue-800 */
+  text-decoration: underline;
+}

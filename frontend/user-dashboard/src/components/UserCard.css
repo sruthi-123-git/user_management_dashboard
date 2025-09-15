@@ -1,0 +1,32 @@
+/* src/components/UserCard.css */
+.user-card {
+  border: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #d81d1d; /* Tailwind's blue-700 */
+}
+
+.user-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #171e29; /* Tailwind's gray-700 */
+}
+
+.user-card a {
+  text-decoration: none;
+  color: inherit;
+}

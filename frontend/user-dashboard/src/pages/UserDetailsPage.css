@@ -1,0 +1,46 @@
+/* src/pages/UserDetailsPage.css */
+.user-details-container {
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.details {
+    color: #472286;
+    font-family: "Bree Serif";
+    font-size: 24px;
+}
+.user-details-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #d81d1d; /* blue-700 */
+}
+
+.user-details-item {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #374151; /* gray-700 */
+}
+
+.user-details-item strong {
+  color: #191127; /* gray-900 */
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2563eb; /* blue-600 */
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #1e3a8a; /* blue-800 */
+  text-decoration: underline;
+}
